@@ -1,0 +1,1354 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="EG EDI">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 4061715347 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Edi Connection</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Connection - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4061715347 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Connection - Field Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4061715347 - Field 3910127384 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sender Gln</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Connection - Field Owner GLN - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4061715347 - Field 4190130733 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Connection - Field Customer No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4061715347 - Field 1171137197 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Connection - Field Customer Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4061715347 - Field 3161666407 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gln Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Connection - Field GLN Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4061715347 - Field 389645823 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gln</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Connection - Field GLN - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4061715347 - Field 4200184881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Connection - Field No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4061715347 - Field 1623026084 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Edi Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Connection - Field EDI Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4061715347 - Field 146219450 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Order</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Connection - Field Order - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4061715347 - Field 538715564 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Connection - Field Shipment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4061715347 - Field 821689635 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoice</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Connection - Field Invoice - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4061715347 - Field 4137875757 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Validate Gln</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Connection - Field Validate GLN - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4061715347 - Field 2677542581 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Allow AdHock Edi</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Connection - Field Allow Edi AdHock - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4061715347 - Field 1780237144 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Credited Invoice Required</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Connection - Field Credited Invoice Required - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4061715347 - Field 3319613347 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Empty Order Date when Adhock</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Connection - Field Empty Order Date when Adhock - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4061715347 - Field 237270881 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Skip By VAT Registration No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Connection - Field Skip By VAT Registration No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4061715347 - Field 3449691890 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Charge</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Connection - Field Item (Charge) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4061715347 - Field 988782945 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Inv. Report</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Connection - Field INVRPT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4061715347 - Field 2088692438 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>InvRpt Location Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Connection - Field INVRPT Location Filter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4061715347 - Field 3886046424 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>File Path In</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Connection - Field File Path in - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4061715347 - Field 2244189735 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>File Path Out</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Connection - Field File Path Out - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4061715347 - Field 310031164 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>File Path Archive In</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Connection - Field File Path Archive Inn - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4061715347 - Field 2327194201 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>File Path Archive Out</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Connection - Field File Path Archive Out - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4061715347 - Field 63363522 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Filter Incoming Orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Connection - Field Filter Incomming Orders - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4061715347 - Field 3590083504 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>File Name Orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Connection - Field File Name Orders - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4061715347 - Field 707715475 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>File Name Shipment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Connection - Field File Name Shipment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4061715347 - Field 3122355684 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>File Name Invoice</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Connection - Field File Name Invoice - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4061715347 - Field 2044744882 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>File Name Cr. Memo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Connection - Field File Name Credit Memo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4061715347 - Field 4233472490 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>File Name InvRpt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Connection - Field File Name INVRPT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4061715347 - Field 4146948648 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>File Name Pricat</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Connection - Field File Name Pricat - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4061715347 - Field 2897495667 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gln Customer</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Connection - Field Gln Customer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4061715347 - Field 1871074776 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gln Invoice</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Connection - Field Gln Invoice - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4061715347 - Field 914994663 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gln Shipment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Connection - Field Gln Shipment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4061715347 - Field 1060207642 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Action Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Connection - Field Action Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4061715347 - Field 1465070302 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Order Counter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Connection - Field Order Counter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4061715347 - Field 2443107167 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoice Counter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Connection - Field Invoice Counter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 4061715347 - Field 1175325573 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>InvRpt Counter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Connection - Field InvRPT Counter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3273102665 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Edi Header</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI Header - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3273102665 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI Header - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3273102665 - Field 2423048384 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Message Ref.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI Header - Field Message Ref. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3273102665 - Field 524352353 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Message date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI Header - Field Message Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3273102665 - Field 341483287 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Order No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI Header - Field Customer Order No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3273102665 - Field 2632124822 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Order Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI Header - Field Order Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3273102665 - Field 83221844 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delivery Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI Header - Field Delivery Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3273102665 - Field 1509569260 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Test order</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI Header - Field Test Order - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3273102665 - Field 1340654506 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Order Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI Header - Field Order Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3273102665 - Field 1212521682 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Order Instruction</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI Header - Field Order Instruction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3273102665 - Field 966740350 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payment Terms Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI Header - Field Payment Terms Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3273102665 - Field 2205104606 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipment Method Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI Header - Field Shipment Method Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3273102665 - Field 4198939294 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Currency Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI Header - Field Currency Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3273102665 - Field 4292898488 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gln Sender</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI Header - Field GLN Owner - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3273102665 - Field 1898084269 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gln SU</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI Header - Field GLN SU - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3273102665 - Field 1106368738 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gln BY</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI Header - Field GLN BY - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3273102665 - Field 1283675763 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gln DP</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI Header - Field GLN DP - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3273102665 - Field 18883358 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gln IV</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI Header - Field GLN IV - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3273102665 - Field 3789709991 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sales Order No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI Header - Field SO Order No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3273102665 - Field 1225278069 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sell-to Customer No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI Header - Field Sell-to Customer No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3273102665 - Field 2965034906 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bill-to Customer No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI Header - Field Bill-to Customer No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3273102665 - Field 993414011 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ship-to Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI Header - Field Ship-to Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3273102665 - Field 1474036805 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sell-to Customer Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI Header - Field Sell-to Customer Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3273102665 - Field 2896133864 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Adhock Order</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI Header - Field Adhock Order - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3273102665 - Field 2363328873 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI Header - Field Document Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3273102665 - Field 2042396078 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Credited Invoice No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI Header - Field Credited Invoice No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3273102665 - Field 3093642907 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Applies-to ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI Header - Field Applies-to ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3273102665 - Field 3242098198 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Order Send</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI Header - Field Order send - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3273102665 - Field 2865335760 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shipment Send</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI Header - Field Shipment send - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3273102665 - Field 2235164335 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invoice Send</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI Header - Field Invoice send - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3273102665 - Field 3481079719 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import Error</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI Header - Field Import Error - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3273102665 - Field 3728960994 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import Message</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI Header - Field Import Message - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3273102665 - Field 1776286053 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Edi Message Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI Header - Field EDI message Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3273102665 - Field 2949122979 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Edi File Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI Header - Field EDI File Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 178543663 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Edi Lines</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI Lines - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 178543663 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI Lines - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 178543663 - Field 3320823955 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI Lines - Field Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 178543663 - Field 3420722286 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PO Item Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI Lines - Field PO Item Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 178543663 - Field 1436898607 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PO Item No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI Lines - Field PO Item No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 178543663 - Field 1719592933 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Suppliers Model Number</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI Lines - Field Suppliers Model Number - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 178543663 - Field 2766371424 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PO Quantity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI Lines - Field PO Quantity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 178543663 - Field 1657655940 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PO Unit Of Measure</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI Lines - Field PO Unit Of Measure - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 178543663 - Field 4159506230 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PO Sales Price</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI Lines - Field PO Sales Price - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 178543663 - Field 1695259218 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PO Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI Lines - Field PO Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 178543663 - Field 2271281833 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PO Delivery Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI Lines - Field PO Delivery Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 178543663 - Field 1146768360 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PO Line Discount</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI Lines - Field PO Line Discount - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 178543663 - Field 3053019652 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PO Referance</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI Lines - Field PO Referance - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 178543663 - Field 3789709991 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SO Order No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI Lines - Field SO Order No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 178543663 - Field 266255719 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SO Line No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI Lines - Field SO Line No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 178543663 - Field 1136502314 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SO Item No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI Lines - Field SO Item No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 178543663 - Field 2599119859 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PO Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI Lines - Field PO Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 178543663 - Field 757683765 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PO Description 2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI Lines - Field PO Description 2 - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 178543663 - Field 2991595093 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SO Unit of Measure</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI Lines - Field SO Unit of Measure - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 178543663 - Field 315528066 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SO Variant Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI Lines - Field SO Variant Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 178543663 - Field 2248886284 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI Lines - Field Error - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 178543663 - Field 3080618677 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Message</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI Lines - Field Message - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 178543663 - Field 2508651537 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Action Request</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI Lines - Field ActionRequest - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 178543663 - Field 714232597 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item Action</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI Lines - Field ItemAction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3779952904 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Edi Types</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Types - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3779952904 - Field 3641927271 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Id</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Types - Field ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3779952904 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Types - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3779952904 - Field 3384570690 - Property 3830149458" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CU Import Orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Types - Field CU Import Orders - Property caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3779952904 - Field 2970415353 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CU Export Orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Types - Field CU Export Orders - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3779952904 - Field 3984430622 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CU Export ShipMent</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Types - Field CU Export ShipMent - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3779952904 - Field 2521590917 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CU Export Invoice</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Types - Field CU Export Invoice - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3779952904 - Field 3540381963 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CU Export CrMemo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Types - Field CU Export CrMemo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3779952904 - Field 225563713 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CU Export Pricat</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Types - Field CU Export PRICAT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3779952904 - Field 2494627695 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CU Export InvRpt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Types - Field CU Export INVRPT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3779952904 - Field 3298211455 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Report Export InvRpt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Types - Field Report Export INVRPT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1644278208 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Edi Document Log</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Document_Logg - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1644278208 - Field 883711285 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Document_Logg - Field Entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1644278208 - Field 341483287 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Order No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Document_Logg - Field Customer Order No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1644278208 - Field 3825512594 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Edi Message ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Document_Logg - Field Edi Message ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1644278208 - Field 2186326632 - Property 3830149458" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Created Date-Time</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Document_Logg - Field Created Date-Time - Property caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1644278208 - Field 2363328873 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Document_Logg - Field Document Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1644278208 - Field 486908828 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Document_Logg - Field Document No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1644278208 - Field 1753214751 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Document_Logg - Field Source Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1644278208 - Field 1882905478 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Document_Logg - Field Source No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1644278208 - Field 2349518125 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sender Gln</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Document_Logg - Field Partner GLN - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1644278208 - Field 1875748007 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EDI Order Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Document_Logg - Field EDI Order entry No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1644278208 - Field 1171137197 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Document_Logg - Field Customer Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1644278208 - Field 1776286053 - Property 3830149458" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EDI Message Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Document_Logg - Field EDI message Type - Property caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1644278208 - Field 2308797483 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sending ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Document_Logg - Field Sending ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1644278208 - Field 1545435603 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>File Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Document_Logg - Field Filename - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1644278208 - Field 2708250016 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User Id</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Document_Logg - Field User ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2994024697 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Action Request</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Action_Request - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2994024697 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Action_Request - Field Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2994024697 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Action_Request - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 309241524 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EDI Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 309241524 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Setup - Field Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 309241524 - Field 3449691890 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item (Charge)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Setup - Field Item (Charge) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 309241524 - Field 2029765415 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Automatic EDI Shipment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Setup - Field Automatic EDI Shipment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 309241524 - Field 2623229592 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Automatic EDI Invoice</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Setup - Field Automatic EDI Invoice - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 309241524 - Field 3482554150 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Use Last Order Connection (Adhock)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Setup - Field Use Last Order Connection (Adhock) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 309241524 - Field 3886046424 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>File Path In</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Setup - Field File Path in - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 309241524 - Field 2244189735 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>File Path Out</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Setup - Field File Path Out - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 309241524 - Field 310031164 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>File Path Archive In</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Setup - Field File Path Archive Inn - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 309241524 - Field 2327194201 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>File Path Archive Out</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Setup - Field File Path Archive Out - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 309241524 - Field 63363522 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Filter Incoming Orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Setup - Field Filter Incomming Orders - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 309241524 - Field 3590083504 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>File Name Orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Setup - Field File Name Orders - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 309241524 - Field 707715475 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>File Name Shipment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Setup - Field File Name Shipment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 309241524 - Field 3122355684 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>File Name Invoice</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Setup - Field File Name Invoice - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 309241524 - Field 2044744882 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>File Name Cr. Memo</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Setup - Field File Name Credit Memo - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 309241524 - Field 4233472490 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>File Name InvRpt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Setup - Field File Name INVRPT - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 309241524 - Field 4146948648 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>File Name Pricat</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Setup - Field File Name Pricat - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3485434875 - NamedType 3403300684" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salgsordre er ikke en EDI-Ordre</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EDI_Mgt - NamedType Txt1001</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3485434875 - NamedType 4040997301" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Edi ordrebekreftelse er sendt. Skal denne sendes på ny?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EDI_Mgt - NamedType Txt1002</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3485434875 - NamedType 383726622" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Edi faktura er sendt. Skal denne sendes på ny?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EDI_Mgt - NamedType Txt1003</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3485434875 - NamedType 214817599" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Skal EDI Ordrebrekrefteles sendes?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EDI_Mgt - NamedType Txt1004</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3485434875 - NamedType 852514216" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Skal EDI faktura sendes?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EDI_Mgt - NamedType Txt1005</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3485434875 - NamedType 1490210833" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Finner ikke edikobling for kunde %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EDI_Mgt - NamedType Txt1006</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3485434875 - NamedType 2127907450" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Edifact format mangler i oppsett for kunde %1</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EDI_Mgt - NamedType Txt1007</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3485434875 - NamedType 3572209707" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Kunde skal ikke ha Edi Ordre</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EDI_Mgt - NamedType Txt1008</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3485434875 - NamedType 4209906324" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Kunde skal ikke ha Edi faktura</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EDI_Mgt - NamedType Txt1009</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3485434875 - NamedType 1973591604" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gln for kunde/partner mangler for kundenr.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EDI_Mgt - NamedType Txt1010</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3485434875 - NamedType 1335894987" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DELETED</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EDI_Mgt - NamedType Txt1011</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3485434875 - NamedType 3248984838" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Order exitst</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EDI_Mgt - NamedType Txt1012</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3485434875 - NamedType 2611288221" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Partner (%1) finnes ikke.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EDI_Mgt - NamedType Txt1013</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3485434875 - NamedType 3717772432" size-unit="char" translate="yes" xml:space="preserve">
+          <source>By (%1) finnes ikke </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EDI_Mgt - NamedType Txt1014</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3485434875 - NamedType 3080075815" size-unit="char" translate="yes" xml:space="preserve">
+          <source>,Item Missing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EDI_Mgt - NamedType Txt1015</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3485434875 - NamedType 698198370" size-unit="char" translate="yes" xml:space="preserve">
+          <source>,Item Blocked</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EDI_Mgt - NamedType Txt1016</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3485434875 - NamedType 60501753" size-unit="char" translate="yes" xml:space="preserve">
+          <source>,Sales Unit of Measure Error</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EDI_Mgt - NamedType Txt1017</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3485434875 - NamedType 1166985964" size-unit="char" translate="yes" xml:space="preserve">
+          <source>,Unit of Measure Missing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EDI_Mgt - NamedType Txt1018</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3485434875 - NamedType 529289347" size-unit="char" translate="yes" xml:space="preserve">
+          <source>,Customer no.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EDI_Mgt - NamedType Txt1019</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3485434875 - NamedType 2250123877" size-unit="char" translate="yes" xml:space="preserve">
+          <source>,Ship-to Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EDI_Mgt - NamedType Txt1020</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3485434875 - NamedType 2887820494" size-unit="char" translate="yes" xml:space="preserve">
+          <source>,BY</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EDI_Mgt - NamedType Txt1021</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3485434875 - NamedType 974730643" size-unit="char" translate="yes" xml:space="preserve">
+          <source>,DP</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EDI_Mgt - NamedType Txt1022</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3485434875 - NamedType 1612427260" size-unit="char" translate="yes" xml:space="preserve">
+          <source>,IV</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EDI_Mgt - NamedType Txt1023</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3485434875 - NamedType 3994304705" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Missing </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EDI_Mgt - NamedType Txt1024</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3485434875 - NamedType 337034026" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Blocked. </source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EDI_Mgt - NamedType Txt1025</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3485434875 - NamedType 2718911471" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Line Error</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EDI_Mgt - NamedType Txt1026</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3485434875 - NamedType 3356608088" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Varenr %1 stemmer ikke overens med varenummer %2 på Ediordrde, linje %3</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EDI_Mgt - NamedType Txt1027</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3485434875 - NamedType 3056729517" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Det kan kun legges til frakt på Ediordre. Varenr %1, linje %2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EDI_Mgt - NamedType Txt1028</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3485434875 - NamedType 3694426134" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ean finnes ikke for varenr %1, enhet %2. Linjenr %2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EDI_Mgt - NamedType Txt1029</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3485434875 - NamedType 1437323062" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No EDi Order for this customer exists. Clear setup field "Use Last EDI Order (adhock) to create EDI Order</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EDI_Mgt - NamedType Txt1030</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3485434875 - NamedType 799626445" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Edi Connection for By not exist</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EDI_Mgt - NamedType Txt1031</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3485434875 - NamedType 161929828" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Edi Connection for IV not exist</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EDI_Mgt - NamedType Txt1032</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3485434875 - NamedType 3819200507" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Edi Connection for Partner not exist</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EDI_Mgt - NamedType Txt1033</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3485434875 - NamedType 3181503890" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Det er ikke tillatt å opprette ny Edi ordre for denne kunden.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EDI_Mgt - NamedType Txt1034</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3485434875 - NamedType 2543807273" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Edi Connection for DP not exist.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EDI_Mgt - NamedType Txt1035</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3556113996 - NamedType 3403300684" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EAN nummer mangler for angitt vare. Kun frakt kan registreres uten EAN.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EDI_Events - NamedType Txt1001</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3556113996 - NamedType 4040997301" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Linje er koblet til edi ordre og kan ikke endres</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EDI_Events - NamedType Txt1002</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3556113996 - NamedType 383726622" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Kun frakt kan legge til en eksisterende Edi ordre. Vare %1, linje %2</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EDI_Events - NamedType Txt1003</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3556113996 - NamedType 214817599" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Edi fakturanr må fylles ut.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EDI_Events - NamedType Txt1004</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3556113996 - NamedType 852514216" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ean finnes ikke for vare %1, linjenr %2. Kun Frakt kan registreres uten EAN</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EDI_Events - NamedType Txt1005</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3556113996 - NamedType 1490210833" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Varenr %1 stemmer ikke overens med varenummer %2 på Ediordrde. Line %3</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EDI_Events - NamedType Txt1006</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3556113996 - NamedType 2127907450" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Varenr %1 stemmer ikke overens med varenummer %2 på Ediordrde. Line %3</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EDI_Events - NamedType Txt1007</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3556113996 - NamedType 3572209707" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Kun frakt kan legges til eksisterende EDI Ordre.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EDI_Events - NamedType Txt1008</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3556113996 - NamedType 4209906324" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Salgspris kan ikke være 0, benytt 100% linjerabatt i stedet.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EDI_Events - NamedType Txt1009</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 1474816297 - NamedType 2765604067" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Varenr %1 manglere GTIN</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EDIFACT INVOIC D96 - NamedType Txt1000</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 580713560 - NamedType 2765604067" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Varenr %1 manglere GTIN</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit EDIFACT CreditMemo D96 - NamedType Txt1000</note>
+        </trans-unit>
+        <trans-unit id="Page 883826 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Edi Connection</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EDI Connection - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 883826 - Control 3886046424 - Method 2699620902 - NamedType 3602839390" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Folder</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EDI Connection - Control File Path in - Method OnAssistEdit - NamedType OpenDialogCaption</note>
+        </trans-unit>
+        <trans-unit id="Page 883826 - Control 2239088903 - Method 2699620902 - NamedType 3602839390" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Folder</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EDI Connection - Control File Path out - Method OnAssistEdit - NamedType OpenDialogCaption</note>
+        </trans-unit>
+        <trans-unit id="Page 883826 - Action 3385294334 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Connection Card</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EDI Connection - Action Connection Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 883826 - Action 1514883969 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Edi Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EDI Connection - Action Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 883826 - Action 1475307044 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Send Inventory Report</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EDI Connection - Action ImportOrders - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4099723810 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Edi Order</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EDI Order - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4099723810 - Action 1514883969 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Edi Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EDI Order - Action Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4099723810 - Action 1475307044 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import Orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EDI Order - Action ImportOrders - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4099723810 - Action 2199692769 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Update Sales Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EDI Order - Action UpdateSalesLine - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4099723810 - Action 411681690 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Update Item Charge</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EDI Order - Action UpdateItemCharge - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4099723810 - Action 1747827026 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Update EDI Cust Addr.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EDI Order - Action UpdateEDICustAddress - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4099723810 - Action 735665869 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Check Orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EDI Order - Action CheckOrders - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4099723810 - Action 1459908139 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Create Orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EDI Order - Action CreateOrders - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4099723810 - Action 4136660829 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Edi logg</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EDI Order - Action EDI Logg - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4099723810 - Action 3176613157 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>"View Edi File"</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EDI Order - Action View Edi File - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4099723810 - Action 593408208 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Download Files</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EDI Order - Action Download - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4099723810 - Action 701918397 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>upload files</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EDI Order - Action Upload - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4099723810 - NamedType 3805845379" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Upload Files</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EDI Order - NamedType txt001</note>
+        </trans-unit>
+        <trans-unit id="Page 2311873733 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Edi Types</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EDI Types - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3629674808 - Property 3830149458" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Edi Document Log</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EDI Document Logg - Property caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3629674808 - Action 2246471190 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Delete Logg</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EDI Document Logg - Action Delete Logg - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3629674808 - Action 1039047781 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>View EDI File</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EDI Document Logg - Action View EDI File - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 268902137 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Edi Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EDI Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2234304278 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>EDI Connection Card</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EDI Connection Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2234304278 - Control 3886046424 - Method 2699620902 - NamedType 3602839390" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Folder</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EDI Connection Card - Control File Path in - Method OnAssistEdit - NamedType OpenDialogCaption</note>
+        </trans-unit>
+        <trans-unit id="Page 2234304278 - Control 2239088903 - Method 2699620902 - NamedType 3602839390" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Folder</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EDI Connection Card - Control File Path out - Method OnAssistEdit - NamedType OpenDialogCaption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 985403553 - Control 3067202943 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
+          <source>Edi Orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EDI_Sales_Header - Control EDIFactbox - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 985403553 - Action 2293002327 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
+          <source>Send Edi</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EDI_Sales_Header - Action EDISendOrderConfirmation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 513659707 - Control 3067202943 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2420212404">
+          <source>Edi Orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EDI_SalesInvoiceHeader - Control EDIFactbox - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 513659707 - Action 2293002327 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2420212404">
+          <source>Send Edi</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EDI_SalesInvoiceHeader - Action EDISendOrderConfirmation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 428836365 - Control 3067202943 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3332899200">
+          <source>Edi Orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EDI_Sales_Order_List - Control EDIFactbox - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 428836365 - Action 2293002327 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3332899200">
+          <source>Send EDI</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EDI_Sales_Order_List - Action EDISendOrderConfirmation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 124695040 - Control 3067202943 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3434938165">
+          <source>Edi Orders</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EDI_Posted_Sales_Invoices - Control EDIFactbox - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 124695040 - Action 2293002327 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3434938165">
+          <source>Send EDI</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EDI_Posted_Sales_Invoices - Action EDISendOrderConfirmation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1554844527 - Action 2293002327 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2716593954">
+          <source>Send EDI</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EDI_Posted_Sales_CrMemo_Header - Action EDISendOrderConfirmation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 1314714785 - Action 2293002327 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2557560783">
+          <source>Send EDI</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EDI_Posted_SalesCrMemo_List - Action EDISendOrderConfirmation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1271282372 - Field 1457897154 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Edi Order-ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EDI_salesheader - Field Edi Order-ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1271282372 - Field 2238965700 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Edi Created</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EDI_salesheader - Field EDI Created - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1271282372 - Field 4099723810 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Edi Order</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EDI_salesheader - Field EDI Order - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1271282372 - Field 1428152193 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Edi Filcounter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EDI_salesheader - Field EDI Filcounter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1271282372 - Field 3609692960 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Edi Adhock Order</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EDI_salesheader - Field Edi Adhock Order - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1271282372 - Field 75608092 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>EDI Order NOT Confirmed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EDI_salesheader - Field Edi Order NOT Confirmed - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1271282372 - Field 979473392 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Edi Order With Error</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EDI_salesheader - Field EDI Order With Error - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1271282372 - Field 262016274 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Edi Invoice No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EDI_salesheader - Field Edi Invoice No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1271282372 - NamedType 2765604067" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Ordre er koblet til EDI-Ordre %1. Skal kobling oppheves ?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EDI_salesheader - NamedType Txt1000</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1271282372 - NamedType 3403300684" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Deleted</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EDI_salesheader - NamedType Txt1001</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1271282372 - NamedType 4040997301" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Edi Invoice No. kan kun fylles ut ved kreditnota</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EDI_salesheader - NamedType Txt1002</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1271282372 - NamedType 383726622" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1192395785">
+          <source>Faktura for kreditering finnes ikke</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EDI_salesheader - NamedType Txt1003</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1493911819 - Field 250571829 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2574427010">
+          <source>Edi Order ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EDI_salesLine - Field Edi Order ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1493911819 - Field 427362340 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2574427010">
+          <source>Edi Order Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EDI_salesLine - Field EDI Order Line - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1493911819 - Field 3686107230 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2574427010">
+          <source>Edi Order Line Changed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EDI_salesLine - Field EDI Order Line Changed - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1493911819 - Field 2797082522 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2574427010">
+          <source>Edi Item (Charge)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EDI_salesLine - Field EDI Item (Charge) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 792706667 - Field 1457897154 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 809936682">
+          <source>Edi Order ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EDI_salesInvHeader - Field Edi Order-ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 792706667 - Field 2238965700 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 809936682">
+          <source>EDI Created</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EDI_salesInvHeader - Field EDI Created - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 792706667 - Field 4099723810 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 809936682">
+          <source>Edi Order</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EDI_salesInvHeader - Field EDI Order - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 792706667 - Field 1428152193 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 809936682">
+          <source>Edi Filcounter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EDI_salesInvHeader - Field EDI Filcounter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 792706667 - Field 3609692960 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 809936682">
+          <source>Edi Adhock Order</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EDI_salesInvHeader - Field Edi Adhock Order - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 792706667 - Field 1741682994 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 809936682">
+          <source>Edi Order Not Invoiced</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EDI_salesInvHeader - Field EDI Order NOT Invoiced - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 792706667 - Field 3540697132 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 809936682">
+          <source>Edi Order Respons</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EDI_salesInvHeader - Field Edi Order Respons - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1540690244 - Field 250571829 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2079186865">
+          <source>Edi Order ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EDI_salesInvLine - Field Edi Order ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1540690244 - Field 427362340 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2079186865">
+          <source>Edi Order Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EDI_salesInvLine - Field EDI Order Line - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1540690244 - Field 3686107230 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2079186865">
+          <source>Edi Order Line Changed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EDI_salesInvLine - Field EDI Order Line Changed - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 1540690244 - Field 2797082522 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 2079186865">
+          <source>Edi Item (Charge)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EDI_salesInvLine - Field EDI Item (Charge) - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3592270989 - Field 3672477093 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+          <source>Edi Customer Name</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EDI_Customer - Field Edi Customer Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3592270989 - Field 1484017898 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+          <source>Edi Address</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EDI_Customer - Field Edi Address - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3592270989 - Field 3909809737 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+          <source>Edi City</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EDI_Customer - Field Edi City - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3592270989 - Field 2722855047 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+          <source>Edi Post Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EDI_Customer - Field Edi Post Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3320619597 - Field 1457897154 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 552782286">
+          <source>Edi Order ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EDI_salesCrMemoHeader - Field Edi Order-ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3320619597 - Field 2238965700 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 552782286">
+          <source>Edi Created</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EDI_salesCrMemoHeader - Field EDI Created - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3320619597 - Field 4099723810 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 552782286">
+          <source>Edi Order</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EDI_salesCrMemoHeader - Field EDI Order - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3320619597 - Field 1428152193 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 552782286">
+          <source>Edi Filcounter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EDI_salesCrMemoHeader - Field EDI Filcounter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3320619597 - Field 3609692960 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 552782286">
+          <source>Edi Adhock Order</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EDI_salesCrMemoHeader - Field Edi Adhock Order - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3320619597 - Field 1741682994 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 552782286">
+          <source>Edi Order Not Invoiced</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EDI_salesCrMemoHeader - Field EDI Order NOT Invoiced - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3320619597 - Field 3540697132 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 552782286">
+          <source>Edi Order Respons</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EDI_salesCrMemoHeader - Field Edi Order Respons - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3320619597 - Field 262016274 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 552782286">
+          <source>Edi Invoice No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EDI_salesCrMemoHeader - Field Edi Invoice No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3442269702 - Field 250571829 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3059602325">
+          <source>Edi Order ID</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EDI_salesCrMemoLine - Field Edi Order ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3442269702 - Field 427362340 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3059602325">
+          <source>EDI Order Line</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EDI_salesCrMemoLine - Field EDI Order Line - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3442269702 - Field 3686107230 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3059602325">
+          <source>Edi Order Line Changed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EDI_salesCrMemoLine - Field EDI Order Line Changed - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 3442269702 - Field 2797082522 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 3059602325">
+          <source>Edi Item (Charge)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension EDI_salesCrMemoLine - Field EDI Item (Charge) - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

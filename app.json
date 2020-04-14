@@ -1,0 +1,26 @@
+{
+  "id": "cf1d9eef-fc63-4af7-87cf-c9dfd179b8d3",
+  "name": "EG EDI",
+  "publisher": "EG A/S",
+  "brief": "EDI: ",
+  "description": "",
+  "version": "1.0.1.1",
+  "privacyStatement": "",
+  "features": ["TranslationFile"],
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "showMyCode": true,
+  "target": "Internal",
+  "capabilities": [],
+  "dependencies": [],
+  "screenshots": [],
+  "runtime": "3.0",
+  "platform": "14.0.0.0",
+  "application": "14.0.0.0",
+  "idRanges": [{
+    "from": 86230,
+    "to": 86250
+  }]
+}
