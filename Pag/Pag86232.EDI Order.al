@@ -46,29 +46,37 @@ page 86232 "EDI Order"
                 field("GLN Supplier"; "GLN SU")
                 {
                     ApplicationArea = All;
+                    ToolTip = 'GLN Supplier: Selskapet som produserer eller på annen måte eier varer og gjør dem tilgjengelig ved handel. Denne parten oppfattes som leverandøren av varene.';
                 }
                 field("GLN Owner";"GLN Owner")
                 {
                     ApplicationArea = All;
+                    ToolTip = 'GLN Owner: Kjede-eier som EDI kontrakt er inngått med';
                 }
                 field("GLN SellTo"; "GLN By")
                 {
                     ApplicationArea = All;
+                    ToolTip = 'Selskap som varer skal selges til.';
                 }
                 field("GLN ShipTo"; "GLN DP")
                 {
                     ApplicationArea = All;
+                    ToolTip = 'Selskap som varer skal leveres til. (Part (selskap) varen stilles til disposisjon for.)';
                 }
                 field("GLN BillTo"; "GLN IV")
                 {
                     ApplicationArea = All;
+                    ToolTip = 'Selskap som faktura skal sendes til.';
                 }
                 field("Bill-to Customer No.";"Bill-to Customer No.")
                 {
+                    ApplicationArea = All;
+                    ToolTip = 'Sette av "Check Order" etter EDI-Connection oppsett av hvem som er betaler';
                 }
                 field("Sell-to Customer No."; "Sell-to Customer No.")
                 {
                     ApplicationArea = All;
+                    ToolTip = 'Sette av "Check Order" etter EDI-Connection oppsett av hvem som er kjøper';
                 }
                 field("Sell-to Customer Name";"Sell-to Customer Name")
                 {

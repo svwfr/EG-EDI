@@ -278,7 +278,6 @@ codeunit 86243 "Edifact ORDERSP D96"
         FileName: Text;
         FilePath: Text;
     begin
-       
         EdiMgt.GetFileNameOut(EDIConnection,'O',False,FilePath,FileName);
         FileName := FilePath + '\' + StrSubstNo(FileName,SalesHeader."No.",EDIConnection."Owner GLN",CurrentDateTime);
         
@@ -286,7 +285,6 @@ codeunit 86243 "Edifact ORDERSP D96"
         exportFile.CREATEOUTSTREAM(exportStream);
 
         ExportFileName := filemgt.GetFileName(filename);
-
     end;
 
     procedure WriteToStream(vString : Text[1024]);

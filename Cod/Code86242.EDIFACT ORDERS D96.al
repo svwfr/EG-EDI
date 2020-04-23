@@ -24,7 +24,6 @@ codeunit 86242 "Edifact ORDERS D96"
     End;
 
     Procedure ImportOneFile(FileName: Text[250];Var EDI_Connection : Record EDI_Connection):Boolean;
-    
     Var
         EdiHeader2: Record "EDI Header";
         LineNo: Integer;
@@ -36,8 +35,6 @@ codeunit 86242 "Edifact ORDERS D96"
 
     Begin
         //w.UPDATE(2,i);
-
-        
         impFile.TEXTMODE(TRUE);
         impFile.WRITEMODE(TRUE);
         IF NOT impFile.OPEN(FileName) THEN 
@@ -104,9 +101,7 @@ codeunit 86242 "Edifact ORDERS D96"
 
     Procedure GetUNA();
     begin
-
     end;
-
 
     procedure GetUNB(InputString : Text[250]);
     begin

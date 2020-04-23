@@ -42,7 +42,7 @@ table 86230 EDI_Connection
         }
         field(5; "Customer Name"; Text[50])
         {
-            Caption = 'Customer No.';
+            Caption = 'Customer Name';
         }
         field(6; "GLN Type"; Option)
         {

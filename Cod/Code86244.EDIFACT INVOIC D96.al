@@ -8,7 +8,6 @@ codeunit 86244 "EDIFACT INVOIC D96"
         CreateInvoice();
     End;
 
-
     procedure CreateInvoice();
     var
         DocumentLogg:Record EDI_Document_Logg;
@@ -369,8 +368,6 @@ codeunit 86244 "EDIFACT INVOIC D96"
             End;
     End;
 
- 
-
     procedure FindVatCodes();
     var
         VatPostSetup:Record "VAT Posting Setup";
@@ -400,7 +397,6 @@ codeunit 86244 "EDIFACT INVOIC D96"
         UNTIL VatPostSetup.NEXT = 0;
         END;
     end;
-
 
     Procedure CalculateTotals();
     vAR 

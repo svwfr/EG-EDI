@@ -48,14 +48,11 @@ codeunit 86230 "EDI_Mgt"
         IF CheckEDIOrder("EDI_Order") then
             If CreateSalesHeader(SalesHeader, "EDI_Order") Then Begin
                 CreateSalesLine(SalesHeader, "EDI_Order");
-
                 EDI_Order."SO Order No." := SalesHeader."No.";
             End;
         EDI_Order.Modify;
         EdiOrder := EDI_Order;
-
         EDI_Logg.UpdateOrderEntry(EDIOrder);
-
     end;
 
     procedure CheckOrders();
@@ -69,86 +66,6 @@ codeunit 86230 "EDI_Mgt"
                 EDI_Orders.Modify;
             Until EDI_Orders.Next = 0;
         End;
-    End;
-
-
-    procedure CreateSalesHeader(Var SalesHeader: Record 36; Var EDI_Order: Record 86231): Boolean;
-    Begin
-        Clear(SalesHeader);
-        SalesHeader."Document Type" := SalesHeader."Document Type"::Order;
-        SalesHeader.Insert(true);
-
-        SalesHeader.SetHideValidationDialog(True);
-        SalesHeader.Validate("Sell-to Customer No.", EDI_Order."Sell-to Customer No.");
-        SalesHeader.Validate("Ship-to Code", EDI_Order."Ship-to Code");
-        If (SalesHeader."Bill-to Customer No." <> EDI_Order."Bill-to Customer No.") and (EDI_Order."Bill-to Customer No." <> '') then
-            SalesHeader.Validate("Bill-to Customer No.", EDI_Order."Bill-to Customer No.");
-
-        SalesHeader."External Document No." := EDI_Order."Customer Order No.";
-        SalesHeader."Your Reference" := EDI_Order."Customer Order No.";
-        SalesHeader."Edi Order-ID" := EDI_Order."Entry No.";
-        SalesHeader."EDI Order" := True;
-        SalesHeader.validate("Order Date", EDI_Order."Order Date");
-        SalesHeader.Validate("Requested Delivery Date", EDI_Order."Delivery Date");
-        SalesHeader.Validate("Shipment Date", EDI_Order."Delivery Date");
-
-        If (EDI_Order."Currency Code" <> '') and (EDI_Order."Currency Code" <> 'NOK') then
-            SalesHeader.Validate("Currency Code", EDI_Order."Currency Code");
-
-        SalesHeader.Modify(true);
-        Exit(true);
-    End;
-
-    procedure CreateSalesLine(Var SalesHeader: Record 36; Var EDI_Order: Record 86231);
-    var
-        EDI_OrderLines: record 86232;
-        SalesOrderLine: REcord 37;
-        LineNo: Integer;
-
-    Begin
-        EDI_OrderLines.SETRANGE("Entry No.", EDI_Order."Entry No.");
-        EDI_Orderlines.Setrange(ItemAction, EDI_OrderLines.ItemAction::" ");
-        If EDI_OrderLines.FindSet then
-            Repeat
-                LineNo := LineNo + 10000;
-
-                SalesOrderLine.Init;
-                SalesOrderLine."Document Type" := SalesHeader."Document Type";
-                SalesOrderLine."Document No." := SalesHeader."No.";
-                SalesOrderLine."Line No." := LineNo;
-                SalesOrderLine.Insert(True);
-
-                EDI_OrderLines."SO Order No." := SalesOrderLine."Document No.";
-                EDI_OrderLines."SO Line No." := SalesOrderLine."Line No.";
-                EDI_OrderLines.Modify;
-
-                SalesOrderLine.SetHideValidationDialog(true);
-                SalesOrderLine.Type := SalesOrderLine.Type::Item;
-                SalesOrderLine.Validate("No.", EDI_OrderLines."SO Item No.");
-                SalesOrderLine.Validate("Unit of Measure Code", EDI_OrderLines."So Unit Of Measure");
-                SalesOrderLine.Validate(Quantity, EDI_OrderLines."PO Quantity");
-                SalesOrderLine."Edi Order ID" := EDI_Order."Entry No.";
-                SalesOrderLine."EDI Order Line" := EDI_OrderLines."Line No.";
-
-                If EDI_OrderLines."PO Sales Price" <> 0 then begin
-                    SalesOrderLine.validate("Unit price", EDI_OrderLines."PO Sales Price");
-                    SalesOrderLine.validate("Line Discount %", EDI_OrderLines."PO Line Discount");
-                End;
-
-                SalesOrderLine.Modify(true);
-
-            Until EDI_OrderLines.Next = 0;
-    End;
-
-    Procedure CreateINVRPT(Var EDI_Connection: Record 86230);
-    Var
-        EDI_Types: record 86233;
-    Begin
-        If EDI_Connection.INVRPT Then Begin
-            If EDI_Types.get(EDI_Connection."EDI Type") Then
-                If EDI_Types."CU Export INVRPT" <> 0 Then
-                    Codeunit.run(EDI_Types."CU Export INVRPT", EDI_Connection);
-        end;
     End;
 
     procedure CheckEDIOrder(Var EDI_Order: Record 86231): Boolean;
@@ -171,11 +88,9 @@ codeunit 86230 "EDI_Mgt"
         TestItem: text[30];
 
     Begin
-
         CustExist := False;
         CustBlocked := False;
         ShipToAddrExist := false;
-
 
         EDI_Order2.setrange("GLN Owner", EDI_Order."GLN Owner");
         EDI_Order2.setrange("Customer Order No.", EDI_Order."Customer Order No.");
@@ -290,32 +205,46 @@ codeunit 86230 "EDI_Mgt"
         If EDI_Orderline.findfirst then
             repeat
                 ItemExists := True;
-
                 EDI_Orderline.Message := '';
-                If EDI_Orderline."PO Item Type" = EDI_Orderline."PO Item Type"::EN Then begin
-                    ItemCrossref.setrange("Cross-Reference Type", ItemCrossref."Cross-Reference Type"::"Bar Code");
-                    ItemCrossref.setrange("Cross-Reference No.", EDI_Orderline."PO Item No.");
-                    If ItemCrossref.FindFirst Then begin
-                        EDI_Orderline."SO Item No." := ItemCrossref."Item No.";
-                        EDI_Orderline."SO Unit of Measure" := ItemCrossref."Unit of Measure";
-                        EDI_Orderline."SO Variant Code" := ItemCrossref."Variant Code";
-                    End
-                    Else begin
-                        testItem := DelChr(EDI_Orderline."PO Item No.", '<>', ' ');
-                        If strlen(TestItem) < 13 then begin
-                            TestItem := padstr('', 13 - strlen(TestItem), '0') + TestItem;
-                        End;
-                        ItemCrossref.setrange("Cross-Reference Type", ItemCrossref."Cross-Reference Type"::"Bar Code");
-                        ItemCrossref.setrange("Cross-Reference No.", TestItem);
-                        If ItemCrossref.FindFirst Then begin
-                            EDI_Orderline."SO Item No." := ItemCrossref."Item No.";
-                            EDI_Orderline."SO Unit of Measure" := ItemCrossref."Unit of Measure";
-                            EDI_Orderline."SO Variant Code" := ItemCrossref."Variant Code";
-                        End
-                        Else
-                            ItemExists := False;
-                    End;
-                End;
+                case EDI_Orderline."PO Item Type" of
+                    EDI_Orderline."PO Item Type"::EN:
+                        begin
+                            ItemCrossref.setrange("Cross-Reference Type", ItemCrossref."Cross-Reference Type"::"Bar Code");
+                            ItemCrossref.setrange("Cross-Reference No.", EDI_Orderline."PO Item No.");
+                            If ItemCrossref.FindFirst Then begin
+                                EDI_Orderline."SO Item No." := ItemCrossref."Item No.";
+                                EDI_Orderline."SO Unit of Measure" := ItemCrossref."Unit of Measure";
+                                EDI_Orderline."SO Variant Code" := ItemCrossref."Variant Code";
+                            End
+                            Else begin
+                                testItem := DelChr(EDI_Orderline."PO Item No.", '<>', ' ');
+                                If strlen(TestItem) < 13 then begin
+                                    TestItem := padstr('', 13 - strlen(TestItem), '0') + TestItem;
+                                End;
+                                ItemCrossref.setrange("Cross-Reference Type", ItemCrossref."Cross-Reference Type"::"Bar Code");
+                                ItemCrossref.setrange("Cross-Reference No.", TestItem);
+                                If ItemCrossref.FindFirst Then begin
+                                    EDI_Orderline."SO Item No." := ItemCrossref."Item No.";
+                                    EDI_Orderline."SO Unit of Measure" := ItemCrossref."Unit of Measure";
+                                    EDI_Orderline."SO Variant Code" := ItemCrossref."Variant Code";
+                                End
+                                Else
+                                    ItemExists := False;
+                            End;
+                        end;
+                    EDI_Orderline."PO Item Type"::GTIN:
+                        begin
+                            Item.SetRange(GTIN, EDI_Orderline."PO Item No.");
+                            if Item.FindFirst() then
+                                EDI_Orderline."SO Item No." := Item."No.";
+                        end;
+                    else begin
+                            Item.SetRange("No.", EDI_Orderline."PO Item No.");
+                            if Item.FindFirst() then
+                                EDI_Orderline."SO Item No." := Item."No.";
+                        end;
+                end;
+
 
                 If Item.Get(EDI_Orderline."SO Item No.") Then Begin
                     If EDI_Orderline."SO Unit of Measure" = '' then
@@ -374,11 +303,89 @@ codeunit 86230 "EDI_Mgt"
                 EDI_Order."Import Message" := EDI_Order."Import Message" + Txt1026;
 
         EDI_Order."Import Error" := EDI_Order."Import Message" <> '';
-
+        OnAfterCheckEDIOrder(EDI_Order);
         Exit(Not EDI_Order."Import Error");
     End;
 
+    procedure CreateSalesHeader(Var SalesHeader: Record 36; Var
+                                                                EDI_Order: Record 86231): Boolean;
+    Begin
+        Clear(SalesHeader);
+        SalesHeader."Document Type" := SalesHeader."Document Type"::Order;
+        SalesHeader.Insert(true);
 
+        SalesHeader.SetHideValidationDialog(True);
+        SalesHeader.Validate("Sell-to Customer No.", EDI_Order."Sell-to Customer No.");
+        SalesHeader.Validate("Ship-to Code", EDI_Order."Ship-to Code");
+        If (SalesHeader."Bill-to Customer No." <> EDI_Order."Bill-to Customer No.") and (EDI_Order."Bill-to Customer No." <> '') then
+            SalesHeader.Validate("Bill-to Customer No.", EDI_Order."Bill-to Customer No.");
+
+        SalesHeader."External Document No." := EDI_Order."Customer Order No.";
+        SalesHeader."Your Reference" := EDI_Order."Customer Order No.";
+        SalesHeader."Edi Order-ID" := EDI_Order."Entry No.";
+        SalesHeader."EDI Order" := True;
+        SalesHeader.validate("Order Date", EDI_Order."Order Date");
+        SalesHeader.Validate("Requested Delivery Date", EDI_Order."Delivery Date");
+        SalesHeader.Validate("Shipment Date", EDI_Order."Delivery Date");
+
+        If (EDI_Order."Currency Code" <> '') and (EDI_Order."Currency Code" <> 'NOK') then
+            SalesHeader.Validate("Currency Code", EDI_Order."Currency Code");
+
+        OnAfterInsertSalesHeader(SalesHeader, EDI_Order);
+        SalesHeader.Modify(true);
+        Exit(true);
+    End;
+
+    procedure CreateSalesLine(Var SalesHeader: Record 36; Var EDI_Order: Record 86231);
+    var
+        EDI_OrderLines: record 86232;
+        SalesOrderLine: REcord 37;
+        LineNo: Integer;
+
+    Begin
+        EDI_OrderLines.SETRANGE("Entry No.", EDI_Order."Entry No.");
+        EDI_Orderlines.Setrange(ItemAction, EDI_OrderLines.ItemAction::" ");
+        If EDI_OrderLines.FindSet then
+            Repeat
+                LineNo := LineNo + 10000;
+                SalesOrderLine.Init;
+                SalesOrderLine."Document Type" := SalesHeader."Document Type";
+                SalesOrderLine."Document No." := SalesHeader."No.";
+                SalesOrderLine."Line No." := LineNo;
+                SalesOrderLine.Insert(True);
+
+                EDI_OrderLines."SO Order No." := SalesOrderLine."Document No.";
+                EDI_OrderLines."SO Line No." := SalesOrderLine."Line No.";
+                EDI_OrderLines.Modify;
+
+                SalesOrderLine.SetHideValidationDialog(true);
+                SalesOrderLine.Type := SalesOrderLine.Type::Item;
+                SalesOrderLine.Validate("No.", EDI_OrderLines."SO Item No.");
+                SalesOrderLine.Validate("Unit of Measure Code", EDI_OrderLines."So Unit Of Measure");
+                SalesOrderLine.Validate(Quantity, EDI_OrderLines."PO Quantity");
+                SalesOrderLine."Edi Order ID" := EDI_Order."Entry No.";
+                SalesOrderLine."EDI Order Line" := EDI_OrderLines."Line No.";
+
+                If EDI_OrderLines."PO Sales Price" <> 0 then begin
+                    SalesOrderLine.validate("Unit price", EDI_OrderLines."PO Sales Price");
+                    SalesOrderLine.validate("Line Discount %", EDI_OrderLines."PO Line Discount");
+                End;
+                OnAfterInsertSalesLine(SalesHeader, SalesOrderLine, EDI_Order, EDI_OrderLines);
+                SalesOrderLine.Modify(true);
+
+            Until EDI_OrderLines.Next = 0;
+    End;
+
+    Procedure CreateINVRPT(Var EDI_Connection: Record 86230);
+    Var
+        EDI_Types: record 86233;
+    Begin
+        If EDI_Connection.INVRPT Then Begin
+            If EDI_Types.get(EDI_Connection."EDI Type") Then
+                If EDI_Types."CU Export INVRPT" <> 0 Then
+                    Codeunit.run(EDI_Types."CU Export INVRPT", EDI_Connection);
+        end;
+    End;
 
     Procedure SendEDIOrdercomfirmation(Var SalesHeader: Record "Sales Header");
     Var
@@ -449,7 +456,6 @@ codeunit 86230 "EDI_Mgt"
                 IF NOT CONFIRM(Txt1005) THEN
                     EXIT;
         End;
-
 
         EDIHeader.Get(SalesInvHeader."Edi Order-ID");
 
@@ -1072,6 +1078,20 @@ codeunit 86230 "EDI_Mgt"
             Until Cust.Next = 0;
     End;
 
+    [IntegrationEvent(false, false)]
+    local procedure OnAfterCheckEDIOrder(var EDI_Order: Record "EDI Header")
+    begin
+    end;
+
+    [IntegrationEvent(false, false)]
+    local procedure OnAfterInsertSalesHeader(var salesheader: Record "Sales Header"; var EDI_Order: Record "EDI Header")
+    begin
+    end;
+
+    [IntegrationEvent(false, false)]
+    local procedure OnAfterInsertSalesLine(var salesheader: Record "Sales Header"; var salesline: record "Sales Line"; var EDI_Order: Record "EDI Header"; var EDI_OrderLines: Record "EDI Lines")
+    begin
+    end;
 
     var
         Txt1001: Label 'Salgsordre er ikke en EDI-Ordre';

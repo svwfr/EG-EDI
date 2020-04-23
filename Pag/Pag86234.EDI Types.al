@@ -33,15 +33,22 @@ page 86234 "EDI Types"
                 }
                 field("CU Export CrMemo";"CU Export CrMemo")
                 {
+                    ApplicationArea = All;
                 }
                 field("CU Export PRICAT";"CU Export PRICAT")
                 {
+                    ApplicationArea = All;
+                    ToolTip = 'Codeunit to use for create Price/sales catalogue message';
                 }
                 field("CU Export INVRPT";"CU Export INVRPT")
                 {
+                    ApplicationArea = All;
+                    ToolTip = 'Codeunit to use for create Inventory Report';
                 }
                 field("Report Export INVRPT";"Report Export INVRPT")
                 {
+                    ApplicationArea = All;
+                    ToolTip = 'Report to use for create Inventory Report';
                 }
             }
         }

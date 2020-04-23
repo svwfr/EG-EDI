@@ -24,7 +24,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Connection - Field Customer No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 4061715347 - Field 1171137197 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Customer No.</source>
+          <source>Customer Name</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Connection - Field Customer Name - Property Caption</note>
         </trans-unit>
@@ -658,10 +658,10 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Setup - Field Automatic EDI Invoice - Property Caption</note>
         </trans-unit>
-        <trans-unit id="Table 309241524 - Field 3482554150 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+        <trans-unit id="Table 309241524 - Field 4125495206 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Use Last Order Connection (Adhock)</source>
           <note from="Developer" annotates="general" priority="2"></note>
-          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Setup - Field Use Last Order Connection (Adhock) - Property Caption</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Setup - Field UseLastOrderConnection(Adhock) - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 309241524 - Field 3886046424 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>File Path In</source>
@@ -953,6 +953,26 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EDI Connection - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 883826 - Control 389645823 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GLN Owner: Kjede eier som EDI kontrakt er inngått med</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EDI Connection - Control GLN - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 883826 - Control 2897495667 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GLN BY: Selskap som varer skal selges til.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EDI Connection - Control Gln Customer - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 883826 - Control 914994663 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GLN DP: Selskap som varer skal leveres til. (Part (selskap) varen stilles til disposisjon for.)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EDI Connection - Control Gln Shipment - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 883826 - Control 1871074776 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GLN IV: Selskap som faktura skal sendes til.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EDI Connection - Control Gln Invoice - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 883826 - Control 3886046424 - Method 2699620902 - NamedType 3602839390" size-unit="char" translate="yes" xml:space="preserve">
           <source>Folder</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -982,6 +1002,41 @@
           <source>Edi Order</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EDI Order - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 4099723810 - Control 2126306291 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GLN Supplier: NPart (selskap) som produserer eller på annen måte eier varer og gjør dem tilgjengelig ved handel. Denne parten oppfattes som leverandøren av varene.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EDI Order - Control GLN Supplier - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4099723810 - Control 4292898488 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>GLN Owner: Kjede eier som EDI kontrakt er inngått med</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EDI Order - Control GLN Owner - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4099723810 - Control 3970716060 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Selskap som varer skal selges til.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EDI Order - Control GLN SellTo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4099723810 - Control 3396237552 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Selskap som varer skal leveres til. (Part (selskap) varen stilles til disposisjon for.)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EDI Order - Control GLN ShipTo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4099723810 - Control 1179954255 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Selskap som faktura skal sendes til.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EDI Order - Control GLN BillTo - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4099723810 - Control 2965034906 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sette av "Check Order" etter EDI-Connection oppsett av hvem som er betaler</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EDI Order - Control Bill-to Customer No. - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 4099723810 - Control 1225278069 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sette av "Check Order" etter EDI-Connection oppsett av hvem som er kjøper</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EDI Order - Control Sell-to Customer No. - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 4099723810 - Action 1514883969 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Edi Setup</source>

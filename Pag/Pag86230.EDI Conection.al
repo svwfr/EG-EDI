@@ -4,7 +4,7 @@ page 86230 "EDI Connection"
     CardPageID = "EDI Connection";
     PageType = List;
     SourceTable = 86230;
-    SourceTableView = WHERE("GLN Type"=FILTER('Agreement'));
+    SourceTableView = WHERE("GLN Type" = FILTER('Agreement'));
     UsageCategory = Administration;
 
     layout
@@ -13,135 +13,171 @@ page 86230 "EDI Connection"
         {
             repeater(Group)
             {
-                field(Code;Code)
+                field(Code; Code)
                 {
+                    ApplicationArea = All;
                 }
-                field("Name";"Customer Name")
+                field("Name"; "Customer Name")
                 {
+                    ApplicationArea = All;
                 }
-                field("GLN";"Owner GLN")
+                field("GLN"; "Owner GLN")
                 {
+                    ApplicationArea = All;
+                    ToolTip = 'GLN Owner: Kjede eier som EDI kontrakt er inngått med';
                 }
-                field("EDI Type";"EDI Type")
+                field("EDI Type"; "EDI Type")
                 {
+                    ApplicationArea = All;
                 }
-                field("Validate GLN";"Validate GLN")
+                field("Validate GLN"; "Validate GLN")
                 {
+                    ApplicationArea = All;
                 }
-                field("Order";"Order")
+                field("Order"; "Order")
                 {
+                    ApplicationArea = All;
                 }
-                 field("Shipment";"Shipment")
+                field("Shipment"; "Shipment")
                 {
+                    ApplicationArea = All;
                 }
-                 field("Invoice";"Invoice")
+                field("Invoice"; "Invoice")
                 {
+                    ApplicationArea = All;
                 }
-                field(INVRPT;INVRPT)
+                field(INVRPT; INVRPT)
                 {
+                    ApplicationArea = All;
                 }
-                field("Allow Edi AdHock";"Allow Edi AdHock")
+                field("Allow Edi AdHock"; "Allow Edi AdHock")
                 {
-                  }
-                field("Credited Invoice Required";"Credited Invoice Required")
-                {
+                    ApplicationArea = All;
                 }
-                field("INVRPT Location Filter";"INVRPT Location Filter")
+                field("Credited Invoice Required"; "Credited Invoice Required")
                 {
+                    ApplicationArea = All;
+                }
+                field("INVRPT Location Filter"; "INVRPT Location Filter")
+                {
+                    ApplicationArea = All;
                     visible = false;
                 }
-                field("Item (Charge)";"Item (Charge)")
+                field("Item (Charge)"; "Item (Charge)")
                 {
+                    ApplicationArea = All;
                     Visible = false;
                 }
-                 field("Gln Customer";"Gln Customer")
+                field("Gln Customer"; "Gln Customer")
                 {
+                    ApplicationArea = All;
+                    ToolTip = 'GLN BY: Selskap som varer skal selges til.';
                 }
-                field("Gln Shipment";"Gln Shipment")
+                field("Gln Shipment"; "Gln Shipment")
                 {
+                    ApplicationArea = All;
+                    ToolTip = 'GLN DP: Selskap som varer skal leveres til. (Part (selskap) varen stilles til disposisjon for.)';
                 }
-                field("Gln Invoice";"Gln Invoice")
+                field("Gln Invoice"; "Gln Invoice")
                 {
+                    ApplicationArea = All;
+                    ToolTip = 'GLN IV: Selskap som faktura skal sendes til.';
                 }
-                field("File Path in";"File Path in")
+                field("File Path in"; "File Path in")
                 {
+                    ApplicationArea = All;
                     Visible = False;
 
                     trigger OnAssistEdit();
                     var
-                        FileMgt : Codeunit 419;
-                        FileName : Text[1024];
-                        OpenDialogCaption : Label 'Folder';
-                        
+                        FileMgt: Codeunit 419;
+                        FileName: Text[1024];
+                        OpenDialogCaption: Label 'Folder';
+
                     begin
-                        IF FileMgt.SelectFolderDialog(OpenDialogCaption,FileName) then
+                        IF FileMgt.SelectFolderDialog(OpenDialogCaption, FileName) then
                             "File Path in" := FileName;
-                        
-                    end; 
+
+                    end;
                 }
-                field("File Path out";"File Path Out")
+                field("File Path out"; "File Path Out")
                 {
+                    ApplicationArea = All;
                     Visible = False;
-                    
+
                     trigger OnAssistEdit();
                     var
-                        FileMgt : Codeunit 419;
-                        FileName : Text[1024];
-                        OpenDialogCaption : Label 'Folder';
-                        
+                        FileMgt: Codeunit 419;
+                        FileName: Text[1024];
+                        OpenDialogCaption: Label 'Folder';
+
                     begin
-                        IF FileMgt.SelectFolderDialog(OpenDialogCaption,FileName) then
+                        IF FileMgt.SelectFolderDialog(OpenDialogCaption, FileName) then
                             "File Path Out" := FileName;
-                        
-                    end; 
+
+                    end;
                 }
-                field("File Path Archive Inn";"File Path Archive Inn")
+                field("File Path Archive Inn"; "File Path Archive Inn")
                 {
+                    ApplicationArea = All;
                     Visible = False;
                 }
-                field("File Path Archive Out";"File Path Archive Out")
+                field("File Path Archive Out"; "File Path Archive Out")
                 {
+                    ApplicationArea = All;
                     Visible = False;
                 }
-                field("Order Counter";"Order Counter")
+                field("Order Counter"; "Order Counter")
                 {
+                    ApplicationArea = All;
                     Visible = False;
                 }
-                field("Invoice Counter";"Invoice Counter")
+                field("Invoice Counter"; "Invoice Counter")
                 {
+                    ApplicationArea = All;
                     Visible = False;
                 }
-                field("InvRPT Counter";"InvRPT Counter")
+                field("InvRPT Counter"; "InvRPT Counter")
                 {
+                    ApplicationArea = All;
                 }
-                field("Filter Incomming Orders";"Filter Incomming Orders")
+                field("Filter Incomming Orders"; "Filter Incomming Orders")
                 {
+                    ApplicationArea = All;
                     Visible = False;
                 }
-                field("File Name Orders";"File Name Orders")
+                field("File Name Orders"; "File Name Orders")
                 {
+                    ApplicationArea = All;
                     Visible = False;
                 }
-                field("File Name Shipment";"File Name Shipment")
+                field("File Name Shipment"; "File Name Shipment")
                 {
+                    ApplicationArea = All;
+                    Visible = False;
+                    ToolTip = '%1=dokumentnr., %2=GLN SU og %3=dato-tid';
+                }
+                field("File Name Invoice"; "File Name Invoice")
+                {
+                    ApplicationArea = All;
+                    Visible = False;
+                    ToolTip = '%1=dokumentnr., %2=GLN SU og %3=dato-tid';
+                }
+                field("File Name Credit Memo"; "File Name Credit Memo")
+                {
+                    ApplicationArea = All;
+                    Visible = False;
+                    ToolTip = '%1=dokumentnr., %2=GLN SU og %3=dato-tid';
+                }
+                field("File Name INVRPT"; "File Name INVRPT")
+                {
+                    ApplicationArea = All;
                     Visible = False;
                 }
-                field("File Name Invoice";"File Name Invoice")
-                {
-                    Visible = False;
-                }
-                field("File Name Credit Memo";"File Name Credit Memo")
-                {
-                    Visible = False;
-                }
-                field("File Name INVRPT";"File Name INVRPT")
-                {
-                    Visible = False;
-                }
-            }   
-            part(SubPage;86231)
+            }
+            part(SubPage; 86231)
             {
-                SubPageLink = "GLN Type"=FILTER('<>Agreement'), code = field(Code);
+                SubPageLink = "GLN Type" = FILTER('<>Agreement'), code = field(Code);
             }
         }
     }
@@ -153,6 +189,7 @@ page 86230 "EDI Connection"
             action("Connection Card")
             {
                 Caption = 'Connection Card';
+                ApplicationArea = All;
                 Image = Edit;
                 Promoted = true;
                 PromotedCategory = Process;
@@ -161,12 +198,13 @@ page 86230 "EDI Connection"
 
                 trigger OnAction();
                 begin
-                    Page.Run(Page::"EDI Connection Card",Rec);
+                    Page.Run(Page::"EDI Connection Card", Rec);
                 end;
             }
             action("Setup")
             {
                 Caption = 'Edi Setup';
+                ApplicationArea = All;
                 Image = Setup;
                 Promoted = true;
                 PromotedCategory = Process;
@@ -181,6 +219,7 @@ page 86230 "EDI Connection"
             action("ImportOrders")
             {
                 Caption = 'Send Inventory Report';
+                ApplicationArea = All;
                 Image = NewOrder;
                 Promoted = true;
                 PromotedCategory = Process;

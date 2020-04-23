@@ -18,9 +18,7 @@ pageextension 86235 EDI_Sales_Header extends "Sales Order"
                 SubPageLink = "No."=FIELD("No."); 
             }
         }
-
     }
-
 
      actions
     {
@@ -30,6 +28,7 @@ pageextension 86235 EDI_Sales_Header extends "Sales Order"
             {
                 ApplicationArea = All;
                 Caption = 'Send Edi';
+                ToolTip = 'Sender Ordrebekreftelse på EDI';
                 Image = Import;
                 Promoted = true;
                 PromotedCategory = Process;
@@ -37,7 +36,6 @@ pageextension 86235 EDI_Sales_Header extends "Sales Order"
                 trigger OnAction();
                 var
                     EDIMgt:codeunit EDI_Mgt;
-
                 begin
                     EDIMgt.SendEDIOrdercomfirmation(rec);
                     CurrPage.UPDATE;
