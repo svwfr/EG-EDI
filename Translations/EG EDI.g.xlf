@@ -983,6 +983,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EDI Connection - Control File Path out - Method OnAssistEdit - NamedType OpenDialogCaption</note>
         </trans-unit>
+        <trans-unit id="Page 883826 - Control 707715475 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1=dokumentnr., %2=GLN SU og %3=dato-tid</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EDI Connection - Control File Name Shipment - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 883826 - Control 3122355684 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1=dokumentnr., %2=GLN SU og %3=dato-tid</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EDI Connection - Control File Name Invoice - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 883826 - Control 2044744882 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1=dokumentnr., %2=GLN SU og %3=dato-tid</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EDI Connection - Control File Name Credit Memo - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 883826 - Action 3385294334 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Connection Card</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1004,12 +1019,12 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EDI Order - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 4099723810 - Control 2126306291 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GLN Supplier: NPart (selskap) som produserer eller på annen måte eier varer og gjør dem tilgjengelig ved handel. Denne parten oppfattes som leverandøren av varene.</source>
+          <source>GLN Supplier: Selskapet som produserer eller på annen måte eier varer og gjør dem tilgjengelig ved handel. Denne parten oppfattes som leverandøren av varene.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EDI Order - Control GLN Supplier - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 4099723810 - Control 4292898488 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GLN Owner: Kjede eier som EDI kontrakt er inngått med</source>
+          <source>GLN Owner: Kjede-eier som EDI kontrakt er inngått med</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EDI Order - Control GLN Owner - Property ToolTip</note>
         </trans-unit>
@@ -1103,6 +1118,21 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EDI Types - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 2311873733 - Control 225563713 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Codeunit to use for create Price/sales catalogue message</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EDI Types - Control CU Export PRICAT - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2311873733 - Control 2494627695 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Codeunit to use for create Inventory Report</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EDI Types - Control CU Export INVRPT - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2311873733 - Control 3298211455 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Report to use for create Inventory Report</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EDI Types - Control Report Export INVRPT - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 3629674808 - Property 3830149458" size-unit="char" translate="yes" xml:space="preserve">
           <source>Edi Document Log</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1147,6 +1177,11 @@
           <source>Send Edi</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EDI_Sales_Header - Action EDISendOrderConfirmation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 985403553 - Action 2293002327 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
+          <source>Sender Ordrebekreftelse på EDI</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EDI_Sales_Header - Action EDISendOrderConfirmation - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 513659707 - Control 3067202943 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2420212404">
           <source>Edi Orders</source>

@@ -28,17 +28,18 @@ page 86231 "EDI - Kobling subform"
                 {
                     ApplicationArea = All;
                 }
-                field("GLN Type"; "GLN Type")
+                field("GLN"; "GLN")
                 {
                     ApplicationArea = All;
                 }
-                field("GLN"; "GLN")
+                field("GLN Type"; "GLN Type")
                 {
                     ApplicationArea = All;
                 }
                 field("No."; "No.")
                 {
                     ApplicationArea = All;
+                    ToolTip = 'In relation to GLN Type. Eg Type=DP reference to ship-to add. code. BY and IV will be cust.no';
                 }
                 field("Description"; "CodeDescription")
                 {

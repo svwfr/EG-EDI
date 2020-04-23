@@ -1,6 +1,5 @@
 codeunit 86230 "EDI_Mgt"
 {
-
     trigger OnRun();
     begin
         ImportOrders();
