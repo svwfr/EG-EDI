@@ -71,17 +71,17 @@ page 86230 "EDI Connection"
                 field("Gln Customer"; "Gln Customer")
                 {
                     ApplicationArea = All;
-                    ToolTip = 'GLN BY: Selskap som varer skal selges til.';
+                    ToolTip = 'Mandatory BY. Use the EDI-Order GLN BY No. to find Sell-to customer, by search for "GLN Type"=BY';
                 }
                 field("Gln Shipment"; "Gln Shipment")
                 {
                     ApplicationArea = All;
-                    ToolTip = 'GLN DP: Selskap som varer skal leveres til. (Part (selskap) varen stilles til disposisjon for.)';
+                    ToolTip = 'DP: Then look for "GLN Type" DP Ship-to Add code, combined with EDI-order GLN DP No. Use this Ship-to Add code on the order. If blank, then ship-to add is equal to sell-to add.';
                 }
                 field("Gln Invoice"; "Gln Invoice")
                 {
                     ApplicationArea = All;
-                    ToolTip = 'GLN IV: Selskap som faktura skal sendes til.';
+                    ToolTip = 'IV then look for "GLN Type" IV-customer, combined with EDI-Order GLN IV No., and use that customer as Bill-to. BY: then look for BY-customer, combined with EDI-Order GLN BY No., and use that customer as Bill-to';
                 }
                 field("File Path in"; "File Path in")
                 {

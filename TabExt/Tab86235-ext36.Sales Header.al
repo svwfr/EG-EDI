@@ -89,7 +89,6 @@ tableextension 86234 EDI_salesheader extends "Sales Header"
                 End;
             End;
         }
-      
     }
     var
         Txt1000:Label 'Ordre er koblet til EDI-Ordre %1. Skal kobling oppheves ?';

@@ -27,6 +27,7 @@ codeunit 86230 "EDI_Mgt"
 
     Begin
         EDI_Orders.SETRANGE("SO Order No.", '');
+        EDI_Orders.SetRange("Import Error",false);
         If EDI_Orders.FindSet then Begin
             repeat
                 CreateOneOrder(EDI_Orders);

@@ -29,11 +29,20 @@ page 86250 "EDI Connection Card"
                 Group("EDI Settings")
                 {
                     field("Gln Customer"; "Gln Customer")
-                    { ApplicationArea = All; }
+                    {
+                        ApplicationArea = All;
+                        ToolTip = 'Mandatory BY. Use the EDI-Order GLN BY No. to find Sell-to customer, by search for "GLN Type"=BY';
+                    }
                     field("Gln Shipment"; "Gln Shipment")
-                    { ApplicationArea = All; }
+                    {
+                        ApplicationArea = All;
+                        ToolTip = 'DP: Then look for "GLN Type" DP Ship-to Add code, combined with EDI-order GLN DP No. Use this Ship-to Add code on the order. If blank, then ship-to add is equal to sell-to add.';
+                    }
                     field("Gln Invoice"; "Gln Invoice")
-                    { ApplicationArea = All; }
+                    {
+                        ApplicationArea = All;
+                        ToolTip = 'IV then look for "GLN Type" IV-customer, combined with EDI-Order GLN IV No., and use that customer as Bill-to. BY: then look for BY-customer, combined with EDI-Order GLN BY No., and use that customer as Bill-to';
+                    }
                     Field("Allow Edi AdHock"; "Allow Edi AdHock")
                     { ApplicationArea = All; }
                     field("Empty Order Date when Adhock"; "Empty Order Date when Adhock")
@@ -47,6 +56,7 @@ page 86250 "EDI Connection Card"
                     field("Item (Charge)"; "Item (Charge)")
                     {
                         ApplicationArea = All;
+                        ToolTip = 'Item given here will be calculated as Freight and porto to the EDI Invoice';
                     }
                     field("INVRPT Location Filter"; "INVRPT Location Filter")
                     {
