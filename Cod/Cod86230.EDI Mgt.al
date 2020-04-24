@@ -164,7 +164,7 @@ codeunit 86230 "EDI_Mgt"
         else
             If EDI_Agreement."Gln Invoice" = EDI_Agreement."Gln Invoice"::BY Then Begin
                 //Betal til Kunde er BY
-                EDi_Connection.Setrange("GLN Type", EDi_Connection."GLN Type"::IV);
+                EDi_Connection.Setrange("GLN Type", EDi_Connection."GLN Type"::By);
                 EDi_Connection.Setrange(GLN, EDI_Order."GLN BY");
                 If EDi_Connection.Findfirst then
                     EDI_Order."Bill-to Customer No." := EDi_Connection."No."
@@ -412,8 +412,6 @@ codeunit 86230 "EDI_Mgt"
         Else
             IF NOT CONFIRM(Txt1004) THEN
                 EXIT;
-
-
         EDIHeader.Get(SalesHeader."Edi Order-ID");
 
         If NOt FindExportEDIConnection(SalesHeader."Sell-to Customer No.", EDIConnection, False, 'O') Then

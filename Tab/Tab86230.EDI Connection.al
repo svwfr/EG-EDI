@@ -11,7 +11,7 @@ table 86230 EDI_Connection
         }
         field(2; "Owner GLN"; Code[20])
         {
-            Caption = 'Sender Gln';
+            Caption = 'Sender GLN';
             DataClassification = CustomerContent;
 
             trigger OnValidate();
@@ -46,12 +46,12 @@ table 86230 EDI_Connection
         }
         field(6; "GLN Type"; Option)
         {
-            Caption = 'Gln Type';
+            Caption = 'GLN Type';
             OptionMembers = " ","By", "DP", "IV", , , , , ,, ,"Agreement" ;
         }
         field(7; GLN; Code[20])
         {
-            Caption = 'Gln';
+            Caption = 'GLN';
         }
         field(8; "No.";Code[250])
         {
@@ -64,7 +64,7 @@ table 86230 EDI_Connection
         
         field(10; "EDI Type"; Code[20])
         {
-            Caption = 'Edi Type';
+            Caption = 'EDI Type';
             TableRelation = EDI_Types;
 
             trigger OnValidate();

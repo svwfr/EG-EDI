@@ -59,23 +59,23 @@ table 86231 "EDI Header"
         }  
         field(19; "GLN Owner";Code[30])
         {
-            Caption = 'Gln Sender';
+            Caption = 'GLN Sender';
         }
         field(20; "GLN SU";Code[30])
         {
-            Caption = 'Gln SU';
+            Caption = 'GLN SU';
         }
         field(21; "GLN BY";Code[30])
         {
-            Caption = 'Gln BY';
+            Caption = 'GLN BY';
         }
         field(22; "GLN DP";Code[30])
         {
-            Caption = 'Gln DP';
+            Caption = 'GLN DP';
         }
         field(23; "GLN IV";Code[30])
         {
-            Caption = 'Gln IV';
+            Caption = 'GLN IV';
         }
         field(50; "SO Order No.";Code[20])
         {
