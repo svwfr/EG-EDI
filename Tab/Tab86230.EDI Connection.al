@@ -252,6 +252,8 @@ table 86230 EDI_Connection
 
     trigger OnDelete();
     begin
+        if not Confirm('Do you want to delete %1 type: %2',false,rec.Code,Rec."EDI Type") then
+            Error('');
     end;
 
     trigger OnRename();
