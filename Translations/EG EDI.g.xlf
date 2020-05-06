@@ -1233,6 +1233,11 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">PageExtension EDI_SalesInvoiceHeader - Action EDISendOrderConfirmation - Property Caption</note>
         </trans-unit>
+        <trans-unit id="PageExtension 428836365 - Control 2238965700 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3332899200">
+          <source>Date when Order Confirmation was created and sent</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension EDI_Sales_Order_List - Control EDI Created - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="PageExtension 428836365 - Control 3067202943 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 3332899200">
           <source>Edi Orders</source>
           <note from="Developer" annotates="general" priority="2"></note>

@@ -252,7 +252,7 @@ table 86230 EDI_Connection
 
     trigger OnDelete();
     begin
-        if not Confirm('Do you want to delete %1 type: %2',false,rec.Code,Rec."EDI Type") then
+        if not Confirm('Do you want to delete %1 - %2 type: %3',false,rec.Code,Rec."Customer Name",Rec."GLN Type") then
             Error('');
     end;
 
