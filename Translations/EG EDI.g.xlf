@@ -14,7 +14,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Connection - Field Code - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 4061715347 - Field 3910127384 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Sender Gln</source>
+          <source>Sender GLN</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Connection - Field Owner GLN - Property Caption</note>
         </trans-unit>
@@ -29,12 +29,12 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Connection - Field Customer Name - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 4061715347 - Field 3161666407 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Gln Type</source>
+          <source>GLN Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Connection - Field GLN Type - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 4061715347 - Field 389645823 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Gln</source>
+          <source>GLN</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Connection - Field GLN - Property Caption</note>
         </trans-unit>
@@ -44,7 +44,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Connection - Field No. - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 4061715347 - Field 1623026084 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Edi Type</source>
+          <source>EDI Type</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Connection - Field EDI Type - Property Caption</note>
         </trans-unit>
@@ -259,27 +259,27 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table EDI Header - Field Currency Code - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3273102665 - Field 4292898488 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Gln Sender</source>
+          <source>GLN Sender</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EDI Header - Field GLN Owner - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3273102665 - Field 1898084269 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Gln SU</source>
+          <source>GLN SU</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EDI Header - Field GLN SU - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3273102665 - Field 1106368738 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Gln BY</source>
+          <source>GLN BY</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EDI Header - Field GLN BY - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3273102665 - Field 1283675763 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Gln DP</source>
+          <source>GLN DP</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EDI Header - Field GLN DP - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 3273102665 - Field 18883358 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Gln IV</source>
+          <source>GLN IV</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EDI Header - Field GLN IV - Property Caption</note>
         </trans-unit>
@@ -959,17 +959,17 @@
           <note from="Xliff Generator" annotates="general" priority="3">Page EDI Connection - Control GLN - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 883826 - Control 2897495667 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GLN BY: Selskap som varer skal selges til.</source>
+          <source>Mandatory BY. Use the EDI-Order GLN BY No. to find Sell-to customer, by search for "GLN Type"=BY</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EDI Connection - Control Gln Customer - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 883826 - Control 914994663 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GLN DP: Selskap som varer skal leveres til. (Part (selskap) varen stilles til disposisjon for.)</source>
+          <source>DP: Then look for "GLN Type" DP Ship-to Add code, combined with EDI-order GLN DP No. Use this Ship-to Add code on the order. If blank, then ship-to add is equal to sell-to add.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EDI Connection - Control Gln Shipment - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 883826 - Control 1871074776 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
-          <source>GLN IV: Selskap som faktura skal sendes til.</source>
+          <source>IV then look for "GLN Type" IV-customer, combined with EDI-Order GLN IV No., and use that customer as Bill-to. BY: then look for BY-customer, combined with EDI-Order GLN BY No., and use that customer as Bill-to</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EDI Connection - Control Gln Invoice - Property ToolTip</note>
         </trans-unit>
@@ -1012,6 +1012,11 @@
           <source>Send Inventory Report</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EDI Connection - Action ImportOrders - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 45437191 - Control 4200184881 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>In relation to GLN Type. Eg Type=DP reference to ship-to add. code. BY and IV will be cust.no</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EDI - Kobling subform - Control No. - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="Page 4099723810 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Edi Order</source>
@@ -1158,6 +1163,26 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EDI Connection Card - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 2234304278 - Control 2897495667 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Mandatory BY. Use the EDI-Order GLN BY No. to find Sell-to customer, by search for "GLN Type"=BY</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EDI Connection Card - Control Gln Customer - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2234304278 - Control 914994663 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>DP: Then look for "GLN Type" DP Ship-to Add code, combined with EDI-order GLN DP No. Use this Ship-to Add code on the order. If blank, then ship-to add is equal to sell-to add.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EDI Connection Card - Control Gln Shipment - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2234304278 - Control 1871074776 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>IV then look for "GLN Type" IV-customer, combined with EDI-Order GLN IV No., and use that customer as Bill-to. BY: then look for BY-customer, combined with EDI-Order GLN BY No., and use that customer as Bill-to</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EDI Connection Card - Control Gln Invoice - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2234304278 - Control 3449691890 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Item given here will be calculated as Freight and porto to the EDI Invoice</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EDI Connection Card - Control Item (Charge) - Property ToolTip</note>
+        </trans-unit>
         <trans-unit id="Page 2234304278 - Control 3886046424 - Method 2699620902 - NamedType 3602839390" size-unit="char" translate="yes" xml:space="preserve">
           <source>Folder</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -1167,6 +1192,21 @@
           <source>Folder</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page EDI Connection Card - Control File Path out - Method OnAssistEdit - NamedType OpenDialogCaption</note>
+        </trans-unit>
+        <trans-unit id="Page 2234304278 - Control 3590083504 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1=dokumentnr., %2=GLN SU og %3=dato-tid</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EDI Connection Card - Control File Name Orders - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2234304278 - Control 707715475 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1=dokumentnr., %2=GLN SU og %3=dato-tid</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EDI Connection Card - Control File Name Shipment - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2234304278 - Control 3122355684 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1=dokumentnr., %2=GLN SU og %3=dato-tid</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page EDI Connection Card - Control File Name Invoice - Property ToolTip</note>
         </trans-unit>
         <trans-unit id="PageExtension 985403553 - Control 3067202943 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 1673401186">
           <source>Edi Orders</source>
