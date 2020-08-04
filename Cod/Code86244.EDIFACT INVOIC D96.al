@@ -1,6 +1,7 @@
 codeunit 86244 "EDIFACT INVOIC D96"
 {
     TableNo = "Sales Invoice Header";
+    Permissions = tabledata 112 = rimd;
 
     trigger OnRun();
     begin
