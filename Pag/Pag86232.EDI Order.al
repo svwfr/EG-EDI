@@ -309,7 +309,10 @@ page 86232 "EDI Order"
                     EdiConn:Record EDI_Connection;
                     EdiLogg:Record EDI_Document_Logg;
                     FilePath:text[250];
+                    IsHandled:Boolean;
                 begin
+                    OnBeforeViewEdiFile(Rec,IsHandled);
+                    if IsHandled then exit;
                     EdiConn.Setrange("GLN Type",EdiConn."GLN Type"::Agreement);
                     EdiConn.setrange("Owner GLN","GLN Owner");
                     EdiConn.FindFirst;
@@ -368,6 +371,11 @@ page 86232 "EDI Order"
     begin
         If GetFilter("Entry No.") = '' Then
             setrange("SO Order No.",'');
+    end;
+
+    [IntegrationEvent(false, false)]
+    local procedure OnBeforeViewEdiFile(EDIhdr: Record "EDI Header";var IsHandled:Boolean)
+    begin
     end;
 
     var
