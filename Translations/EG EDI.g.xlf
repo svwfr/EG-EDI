@@ -49,7 +49,7 @@
           <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Connection - Field EDI Type - Property Caption</note>
         </trans-unit>
         <trans-unit id="Table 4061715347 - Field 146219450 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Order</source>
+          <source>Order Confirmation</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Table EDI_Connection - Field Order - Property Caption</note>
         </trans-unit>

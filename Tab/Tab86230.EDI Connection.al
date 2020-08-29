@@ -81,7 +81,7 @@ table 86230 EDI_Connection
         }
         field(11; Order; Boolean)
         {
-            Caption = 'Order';
+            Caption = 'Order Confirmation';
         }
         field(12; Shipment; Boolean)
         {

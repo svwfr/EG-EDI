@@ -1,6 +1,6 @@
 codeunit 86231 "EDI_Events"
 {
-
+    Permissions = tabledata 112 = rimd;
     EventSubscriberInstance = StaticAutomatic;
 
     [EventSubscriber(ObjectType::Table, 37, 'OnAfterValidateEvent', 'No.', false, false)]
@@ -127,7 +127,7 @@ codeunit 86231 "EDI_Events"
     End;
 
     [EventSubscriber(ObjectType::codeunit, 80, 'OnAfterPostSalesDoc', '', false, false)]
-    local procedure OnBeforeInsertSalesInvoice(VAR SalesHeader : Record "Sales Header";VAR GenJnlPostLine : Codeunit "Gen. Jnl.-Post Line";SalesShptHdrNo : Code[20];RetRcpHdrNo : Code[20];SalesInvHdrNo : Code[20];SalesCrMemoHdrNo : Code[20]);
+    local procedure UpdateSalesInv(VAR SalesHeader : Record "Sales Header";VAR GenJnlPostLine : Codeunit "Gen. Jnl.-Post Line";SalesShptHdrNo : Code[20];RetRcpHdrNo : Code[20];SalesInvHdrNo : Code[20];SalesCrMemoHdrNo : Code[20]);
     var
         rSalesInoiceheader:Record "Sales Invoice Header";
         rSalesInvoiceLine:record "Sales Invoice Line";
