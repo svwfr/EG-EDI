@@ -26,7 +26,11 @@ table 86230 EDI_Connection
                 end;
             end;
         }
-
+        field(3;Active;Boolean)
+        {
+            Caption = 'Active';
+            DataClassification = CustomerContent;
+        }
         field(4; "Customer No."; Code[20])
         {
             Caption = 'Customer No.';

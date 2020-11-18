@@ -13,6 +13,7 @@ codeunit 86230 "EDI_Mgt"
 
     Begin
         EDI_Connection.Setrange("GLN Type", EDI_Connection."GLN Type"::Agreement);
+        EDI_Connection.SetRange(Active,true);
         If EDI_Connection.FindSet then
             repeat
                 If EDI_Types.get(EDI_Connection."EDI Type") Then
