@@ -17,7 +17,6 @@ codeunit 86242 "Edifact ORDERS D96"
         If Filelist.FindSet Then 
             repeat
                 If ImportOneFile(FileList.Name, EDI_Connection) then begin
-                    EDIHeader.Modify();
                     MoveFile(FileList.Name, EDI_Connection);
                     Commit;
                 End;
@@ -97,6 +96,7 @@ codeunit 86242 "Edifact ORDERS D96"
                 impData[LineCnt] := COPYSTR(impData[LineCnt],i+1);
             Until i = 0;
         End; 
+        if EDIHeader.Modify() then;
         exit(true);
     End;
 
