@@ -55,7 +55,7 @@ codeunit 86242 "Edifact ORDERS D96"
         If (StrPos(impData[1],'CONTRL') > 0) and (StrPos(impData[1],'EAN002') > 0) and (StrPos(impData[1],'INVOIC:D:96A:UN:SPORTA') > 0)then
            ImportInvoiceResponce(LineCnt)
 
-        Else If (StrPos(impData[1],'ORDERS:D:96A') = 0) or (StrPos(impData[1],'ORDERS:D:93A') = 0) Then
+        Else If (StrPos(impData[1],'ORDERS:D:96A') = 0) and (StrPos(impData[1],'ORDERS:D:93A') = 0) Then
            Exit(True);
 
         i := 1;
