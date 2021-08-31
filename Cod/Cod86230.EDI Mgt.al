@@ -1,6 +1,6 @@
 codeunit 86230 "EDI_Mgt"
 {
-    Permissions = tabledata "Sales Invoice Header" = rm;
+    Permissions = tabledata "Sales Invoice Line" = rm;
 
     trigger OnRun();
     begin

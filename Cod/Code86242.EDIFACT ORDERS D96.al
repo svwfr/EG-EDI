@@ -1,6 +1,7 @@
 codeunit 86242 "Edifact ORDERS D96"
 {
     TableNo = 86230;
+    Permissions = tabledata "Sales Invoice Header" = rm;
 
     trigger OnRun();
     begin
