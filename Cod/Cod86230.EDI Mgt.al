@@ -1,5 +1,7 @@
 codeunit 86230 "EDI_Mgt"
 {
+    Permissions = tabledata "Sales Invoice Header" = rm;
+
     trigger OnRun();
     begin
         ImportOrders();
