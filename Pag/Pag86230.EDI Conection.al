@@ -30,6 +30,10 @@ page 86230 "EDI Connection"
                 {
                     ApplicationArea = All;
                 }
+                field(Active; Active)
+                {
+                    ApplicationArea = All;
+                }
                 field("Validate GLN"; "Validate GLN")
                 {
                     ApplicationArea = All;

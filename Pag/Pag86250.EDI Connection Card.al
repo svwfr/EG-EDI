@@ -20,6 +20,8 @@ page 86250 "EDI Connection Card"
                 { ApplicationArea = All; }
                 field("EDI Type"; "EDI Type")
                 { ApplicationArea = All; }
+                field(Active;Active)
+                { ApplicationArea = All; }
                 field(Order; Order)
                 { ApplicationArea = All; }
                 field(Shipment; Shipment)
